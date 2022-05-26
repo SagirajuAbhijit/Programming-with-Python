@@ -1,4 +1,4 @@
-# abhijitvarma
+# sqlite
  import sqlite3
 con = sqlite3.connect('Marks.db')
 query = ''' CREATE TABLE if not exists students(RollNo INT PRIMARY KEY, Name TEXT,Maths TEXT,Python TEXT)'''
